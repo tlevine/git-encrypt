@@ -9,7 +9,7 @@ arch=('i686' 'x86_64')
 url="git://github.com/shadowhand/git-encrypt.git"
 license=('MIT')
 depends=('git')
-source=("$pkgname"::'git://github.com/tlevine/git-encrypt.git')
+source=(develop::'git://github.com/tlevine/git-encrypt.git')
 md5sums=('SKIP')
 
 pkgver() {
